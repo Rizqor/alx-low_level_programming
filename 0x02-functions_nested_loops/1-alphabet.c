@@ -2,16 +2,14 @@
 
 /**
  * print_alphabet - prints the alpha in lower case
- * Return: Always 0
  */
 void print_alphabet(void)
 {
 	char la;
 
-	for (la = 'a'; la <= 'z'; la++)
+	for (la = 'a'; lc <= 'z'; la++)
 		_putchar (la);
-
-	_putchar ('\n');
+	_putchar('\n');
 
 	return (0);
 }
