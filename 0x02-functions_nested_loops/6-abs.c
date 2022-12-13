@@ -11,4 +11,4 @@ int _abs(int)
 		return (t);
 	else
 		return (-t);
-};
+}
